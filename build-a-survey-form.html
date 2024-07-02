@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+
+  <h1 id="title"> Hi </h1>
+  <p id="description"> A little experiment</p>
+  <form id="survey-form">
+    <div>
+    <label id="name-label" for="name">Name</label>
+      <input placeholder="Enter your name" id="name" type="text" required/>
+    </div>
+    <div>
+    <label id="email-label" for="email">Email</label>
+      <input placeholder="Enter your Email" id="email" type="email" required/>
+    </div>
+    <div>
+    <label id="number-label" for="number">Age <span class="clue"> (optional)</span></label>
+      <input min="16" max="110" placeholder="Age" id="number" type="number"/>
+    </div>
+    <div>
+  <p>What is your Strand in SHS?</p>
+  <select id="dropdown" required>
+    <option disabled selected value>Strand</option>
+    <option value="ABM">ABM</option>
+    <option value="STEM">STEM</option>
+    <option value="HUMSS">HUMSS</option>
+    <option value="GAS">GAS</option>
+  </select>
+    </div>
+    <div>
+      <p>Are you happy in your chosen Strand?</p>
+      <div>
+      <label>
+      <input name="a" type="radio" value="definitely" class="input-radio" checked />
+      Definitely
+      </label>
+      </div>
+      <div>
+      <label>
+      <input name="a" type="radio" value="maybe" class="input-radio" />
+      Maybe
+      </label>
+      </div>
+      <div>
+      <label>
+      <input name="a" type="radio" value="not so Much" class="input-radio" />
+      Not so Much
+      </label>
+      </div>
+    </div>
+    <div>
+  <p>What is your favorite Subject?</p>
+  <select id="dropdown" required>
+    <option disabled selected value>Subject</option>
+    <option value="Science">Science</option>
+    <option value="Math">Math</option>
+    <option value="English">English</option>
+    <option value="TLE">TLE</option>
+    <option value="MAPEH">MAPEH</option>
+    <option value="ESP">ESP</option>
+    <option value="AP">AP</option>
+    <option value="Filipino">Filipino</option>
+  </select>
+    </div>
+    <div>
+      <p> How so?
+        <span class="clue"> (Check ones that apply)</span>
+        </p>
+    <div>
+    <label>
+      <input type="checkbox" value="Its fun" /> Its fun
+    </label>
+    </div>
+    <div>
+    <label>
+      <input type="checkbox" value="Its enjoyable" /> Its enjoyable
+    </label>
+    </div>
+    <div>
+    <label>
+      <input type="checkbox" value="Its easy" /> Its easy
+    </label>
+    </div>
+    <div>
+    <label>
+      <input type="checkbox" value="Its rewind time" /> Its rewind time
+    </label>
+    </div>
+    <div>
+      <p>Any comments on this survey?</p>
+      <textarea id="comments" placeholder="Enter your comments here..."></textarea>
+    </div>
+    <div>
+  <input id="submit" type="submit"></input>
+    </div>
+  </form>
+
+
